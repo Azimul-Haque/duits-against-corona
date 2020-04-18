@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Fight For Life',
+    'title' => 'DUITS Against Corona',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Fight</b>ForLife',
+    'logo' => '<b>DUITS</b>AgainstCorona',
 
-    'logo_mini' => '<b>FF</b>L',
+    'logo_mini' => '<b>D</b>AC',
 
     /*
     |--------------------------------------------------------------------------

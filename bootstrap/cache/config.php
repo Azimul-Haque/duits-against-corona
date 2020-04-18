@@ -1,8 +1,8 @@
 <?php return array (
   'aamarpay' => 
   array (
-    'store_id' => 'sererl',
-    'signature_key' => '3c831409a577666bd9c49b6a46473acc',
+    'store_id' => 'duits',
+    'signature_key' => '4170582cc27b67e484153f90131bcf05',
     'sandbox' => false,
     'redirect_url' => 
     array (
@@ -18,11 +18,11 @@
   ),
   'adminlte' => 
   array (
-    'title' => 'Fight For Life',
+    'title' => 'DUITS Against Corona',
     'title_prefix' => '',
     'title_postfix' => '',
-    'logo' => '<b>Fight</b>ForLife',
-    'logo_mini' => '<b>FF</b>L',
+    'logo' => '<b>DUITS</b>AgainstCorona',
+    'logo_mini' => '<b>D</b>AC',
     'skin' => 'blue',
     'layout' => 'fixed',
     'collapse_sidebar' => false,
@@ -87,7 +87,7 @@
     'timezone' => 'Asia/Dhaka',
     'locale' => 'en',
     'fallback_locale' => 'en',
-    'key' => 'base64:9iZ8Tc+fx87UNo7noX0Y4z23T3CXAsGuwpp4pByL5G4=',
+    'key' => 'base64:xZ7QgDQATfJHYV2i87Bt2H24GqjKdt/RaZAqfcw9lVA=',
     'cipher' => 'AES-256-CBC',
     'log' => 'single',
     'providers' => 
@@ -252,7 +252,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\wamp\\www\\fightforlife\\storage\\framework/cache',
+        'path' => 'C:\\wamp\\www\\duits3\\storage\\framework/cache',
       ),
       'memcached' => 
       array (
@@ -293,7 +293,7 @@
       'sqlite' => 
       array (
         'driver' => 'sqlite',
-        'database' => 'fightforlife',
+        'database' => 'duits_corona',
         'prefix' => '',
       ),
       'mysql' => 
@@ -301,7 +301,7 @@
         'driver' => 'mysql',
         'host' => 'localhost',
         'port' => '3306',
-        'database' => 'fightforlife',
+        'database' => 'duits_corona',
         'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
@@ -315,7 +315,7 @@
         'driver' => 'pgsql',
         'host' => 'localhost',
         'port' => '3306',
-        'database' => 'fightforlife',
+        'database' => 'duits_corona',
         'username' => 'root',
         'password' => '',
         'charset' => 'utf8',
@@ -345,12 +345,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\wamp\\www\\fightforlife\\storage\\app',
+        'root' => 'C:\\wamp\\www\\duits3\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\wamp\\www\\fightforlife\\storage\\app/public',
+        'root' => 'C:\\wamp\\www\\duits3\\storage\\app/public',
         'visibility' => 'public',
       ),
       's3' => 
@@ -391,8 +391,8 @@
     'keywords' => '',
     'creator' => 'Laravel Pdf',
     'display_mode' => 'fullpage',
-    'tempDir' => 'C:\\wamp\\www\\fightforlife\\../temp/',
-    'font_path' => 'C:\\wamp\\www\\fightforlife\\vendor\\mpdf\\mpdf\\ttfonts',
+    'tempDir' => 'C:\\wamp\\www\\duits3\\../temp/',
+    'font_path' => 'C:\\wamp\\www\\duits3\\vendor\\mpdf\\mpdf\\ttfonts',
     'font_data' => 
     array (
       'kalpurush' => 
@@ -409,7 +409,7 @@
   array (
     'encoding' => 'UTF-8',
     'finalize' => true,
-    'cachePath' => 'C:\\wamp\\www\\fightforlife\\storage\\app/purifier',
+    'cachePath' => 'C:\\wamp\\www\\duits3\\storage\\app/purifier',
     'cacheFileMode' => 493,
     'settings' => 
     array (
@@ -746,7 +746,7 @@
     'lifetime' => 120,
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\wamp\\www\\fightforlife\\storage\\framework/sessions',
+    'files' => 'C:\\wamp\\www\\duits3\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'lottery' => 
@@ -764,8 +764,8 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\wamp\\www\\fightforlife\\resources\\views',
+      0 => 'C:\\wamp\\www\\duits3\\resources\\views',
     ),
-    'compiled' => 'C:\\wamp\\www\\fightforlife\\storage\\framework\\views',
+    'compiled' => 'C:\\wamp\\www\\duits3\\storage\\framework\\views',
   ),
 );
