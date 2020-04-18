@@ -55,7 +55,7 @@ class IndexController extends Controller
         $this->validate($request,array(
             'name'                          => 'required|max:255',
             'amount'                        => 'required|numeric',
-            'institute'                      => 'sometimes|max:255',
+            'duits_batch'                   => 'sometimes|max:255',
             'phone'                         => 'required|numeric',
             'contact_sum_result'            => 'required|numeric',
             'contact_sum_result_hidden'     => 'required|numeric',
@@ -67,7 +67,7 @@ class IndexController extends Controller
             $donation->donation_id = random_string(10);
             $donation->name = htmlspecialchars(preg_replace("/\s+/", " ", ucwords($request->name)));
             $donation->amount = $request->amount;
-            $donation->institute = htmlspecialchars(preg_replace("/\s+/", " ", $request->institute));
+            $donation->duits_batch = htmlspecialchars(preg_replace("/\s+/", " ", $request->duits_batch));
             $donation->phone = $request->phone;
             $donation->payment_status = 0;
 
