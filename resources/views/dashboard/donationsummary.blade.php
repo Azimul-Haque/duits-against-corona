@@ -8,7 +8,7 @@
 
 @section('content_header')
     <h1>
-      Donations [Total donations: <b>{{ $totaldonations }}</b>, <b>৳ {{ $totaldonationamount->total }}</b>]
+      Donations [Total donations: <b>{{ $totaldonations }}</b>, <b>৳ {{ $totaldonationamount->total - $totalcharge->total }}</b>]
       <div class="pull-right">
         {{-- <a class="btn btn-success" href="{{ route('index.application') }}" target="_blank"><i class="fa fa-fw fa-plus" aria-hidden="true"></i> Add Member</a> --}}
       </div>
