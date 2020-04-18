@@ -135,37 +135,37 @@
         </div>
     </section>
 
-    <section class="fix-background white-text" style="background-image:url('/images/donation_background.jpg');">
+    <section class="fix-background black-text bg-gray" {{-- style="background-image:url('/images/donation_background.jpg'); --}}">
         {{-- <img class="parallax-background-img" src="/images/donation_background.jpg" alt="" />
         <div class="slider-overlay bg-slider"></div> --}}
         <div class="container">
             <div class="row">
                 <!-- counter -->
                 <div class="col-md-4 col-sm-4 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="600ms">
-                    <i class="icon-happy medium-icon"></i>
-                    <span class="timer counter-number white-text" data-to="{{ $totaldonations }}" data-speed="7000"></span>
-                    <span class="counter-title gray-text">Donors</span>
+                    <i class="icon-happy medium-icon black-text"></i>
+                    <span class="timer counter-number black-text" data-to="{{ $totaldonations }}" data-speed="7000"></span>
+                    <span class="counter-title black-text">Donors</span>
                 </div>
                 <!-- end counter -->
                 <!-- counter -->
                 <div class="col-md-4 col-sm-4 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="300ms">
-                    <i class="icon-heart medium-icon"></i>
-                    <span class="timer counter-number white-text" data-to="{{ $totaldonationamount->total - $totalcharge->total }}" data-speed="5000"></span>
-                    <span class="counter-title gray-text">Donation (Tk.)</span>
+                    <i class="icon-heart medium-icon black-text"></i>
+                    <span class="timer counter-number black-text" data-to="{{ $totaldonationamount->total - $totalcharge->total }}" data-speed="5000"></span>
+                    <span class="counter-title black-text">Donation (Tk.)</span>
                 </div>
                 <!-- end counter -->
                 <!-- counter -->
                 <div class="col-md-4 col-sm-4 bottom-margin-small text-center counter-section wow fadeInUp xs-margin-bottom-ten" data-wow-duration="900ms">
-                    <i class="icon-anchor medium-icon"></i>
-                    <span class="timer counter-number white-text" data-to="3" data-speed="7000"></span>
-                    <span class="counter-title gray-text">Partners</span>
+                    <i class="icon-anchor medium-icon black-text"></i>
+                    <span class="timer counter-number black-text" data-to="3" data-speed="7000"></span>
+                    <span class="counter-title black-text">Partners</span>
                 </div>
                 <!-- end counter -->
             </div>
         </div>
     </section>
 
-    <section id="approach" class="approach parallax1 parallax-fix  parallax-section-main">
+    {{-- <section id="approach" class="approach parallax1 parallax-fix  parallax-section-main">
         <div class="carousel slide carousel-slide" id="partnersCarousal"> 
             <div class="container">
                 <div class="row">
@@ -180,17 +180,11 @@
                         <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="Heroes of COVID19, Thakurgaon" src="/images/partners/tg.jpg"></a><h5 class="margin-ten no-margin-bottom xs-margin-top-five">Heroes of COVID19, Thakurgaon</h5></div>
                         <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="Gazipur Local Club" src="/images/partners/gazipur_local.jpg"></a><h5 class="margin-ten no-margin-bottom xs-margin-top-five">Gazipur Local Club</h5></div>
                     </div>
-                    {{-- <div class="item"> 
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/slider/architecture-featured01.jpg"></a><h5 class="margin-ten no-margin-bottom xs-margin-top-five">Test 5</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/slider/architecture-featured01.jpg"></a><h5 class="margin-ten no-margin-bottom xs-margin-top-five">Test 6</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center xs-margin-bottom-ten"><a href="#"><img alt="" src="/images/slider/architecture-featured01.jpg"></a><h5 class="margin-ten no-margin-bottom xs-margin-top-five">Test 7</h5></div>
-                        <div class="col-md-3 col-sm-6 text-center"><a href="#"><img alt="" src="/images/slider/architecture-featured01.jpg"></a><h5 class="margin-ten no-margin-bottom xs-margin-top-five">Test 8</h5></div>
-                    </div> --}}
                 </div>
             </div> 
             <a data-slide="prev" href="#partnersCarousal" class="left carousel-control"> <img alt="" src="/images/arrow-pre.png"> </a> <a data-slide="next" href="#partnersCarousal" class="right carousel-control"> <img alt="" src="/images/arrow-next.png"> </a>
         </div>
-    </section>
+    </section> --}}
 
     <section class="fix-background white-text" style="background-image:url('/images/iit_du.jpg');">
         {{-- <div class="opacity-full bg-white"></div> --}}
