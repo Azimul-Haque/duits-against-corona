@@ -163,8 +163,8 @@
         </div>
     </section> --}}
 
-    <section class="fix-background white-text" style="background-image:url('/images/iit_du.jpg');">
-        {{-- <div class="opacity-full bg-white"></div> --}}
+    <section class="fix-background white-text" style="background-image:url('/images/curzon.jpg');">
+        {{-- <div class="opacity-light bg-grey"></div> --}}
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 text-center center-col">
