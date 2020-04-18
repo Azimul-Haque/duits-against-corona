@@ -51,9 +51,9 @@
                                 aamarpay_post_button([
                                     'tran_id'  => $donation->trxid,
                                     'cus_name'  => $donation->name,
-                                    'cus_email' => $donation->phone . '@iitdualumni.com',
+                                    'cus_email' => $donation->phone . '@duits-bd.org',
                                     'cus_phone' => $donation->phone,
-                                    'desc' => 'Registration Fee',
+                                    'desc' => 'Donation Against Corona',
                                     'opt_a' => $donation->donation_id,
                                     'opt_b' => $donation->amount
                                 ], $donation->amount, '<i class="fa fa-money"></i> Pay Through AamarPay', 'highlight-button btn btn-medium button margin-five text-center center-col') !!}
