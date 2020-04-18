@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-    Let's Fight For Life. Stay Home. Stay Safe.
+    Let's Fight Against Corona. Stay Home. Stay Safe.
 @endsection
 
 @section('css')

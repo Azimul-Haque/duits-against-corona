@@ -34,7 +34,7 @@
                 <div class="col-md-6 col-sm-6 xs-margin-bottom-ten">
                     <div class="position-relative"><img src="{{ asset('images/contact2.jpg') }}" alt=""/><a class="highlight-button-dark btn btn-very-small view-map no-margin bg-black white-text" href="https://www.google.co.in/maps" target="_blank">See on Map</a></div>
                     <p class="text-med black-text letter-spacing-1 margin-ten no-margin-bottom text-uppercase font-weight-600 xs-margin-top-five">
-                        {{-- Head Office --}}
+                        Head Office
                     </p>
                     <div class="row">
                         <div class="col-md-6">

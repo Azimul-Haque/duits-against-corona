@@ -3,17 +3,19 @@
     <div class="container">
         <div class="row">
             <!-- logo -->
-            <div class="col-md-2 pull-left">
+            <div class="col-md-3 pull-left">
                 <a class="logo-light" href="{{ route('index.index') }}">
                     {{-- @if(\Request::is('/'))
-                        <img alt="" src="{{ asset('images/logo-light.png') }}" class="logo" />
+                        <img alt="" src="{{ asset('images/logo-light.png') }}" class="logo" style="float: left;" />
                     @else
-                        <img alt="" src="{{ asset('images/logo.png') }}" class="logo" />
+                        <img alt="" src="{{ asset('images/logo.png') }}" class="logo" style="float: left;" />
                     @endif --}}
-                    <img alt="" src="{{ asset('images/logo.png') }}" class="logo" />
+                    <img alt="" src="{{ asset('images/logo.png') }}" class="logo" style="float: left;" />
+                    <span style="float: left; font-size: 18px; font-weight: bold; letter-spacing: -0.3px; margin-top: 7px; text-shadow: 1px 1px 1px rgba(0,0,0,0.14); display: block;">DUITS Against<br/><span class="letter-spacing-2">CORONA</span></span>
                 </a>
                 <a class="logo-dark" href="{{ route('index.index') }}">
-                    <img alt="" src="{{ asset('images/logo.png') }}" class="logo" />
+                    <img alt="" src="{{ asset('images/logo.png') }}" class="logo" style="float: left;" />
+                    <span style="float: left; font-size: 18px; font-weight: bold; letter-spacing: -0.3px; margin-top: 7px; text-shadow: 1px 1px 1px rgba(0,0,0,0.14); display: block;">DUITS Against<br/><span class="letter-spacing-2">CORONA</span></span>
                 </a>
             </div>
             <!-- end logo -->
@@ -80,9 +82,9 @@
                         {{-- <li>
                             <a href="{{ route('index.affiliated') }}">Affiliated Partners</a>
                         </li> --}}
-                        <li>
+                        {{-- <li>
                             <a href="{{ route('index.distribution') }}">Partners</a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href="{{ route('index.gallery') }}">Gallery</a>
                         </li>

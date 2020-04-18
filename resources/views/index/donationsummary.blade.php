@@ -69,7 +69,7 @@
                                 <tr>
                                     <th>Donor Name</th>
                                     <th>Donor Contact</th>
-                                    <th>Institution/ Organization</th>
+                                    <th>DUITS Batch</th>
                                     {{-- <th>Donation Amount</th> --}}
                                     <th>Donation Datetime</th>
                                 </tr>
@@ -79,7 +79,7 @@
                                     <tr>
                                         <td><a href="{{ route('index.donatenext', $donor->donation_id) }}">{{ $donor->name }}</a></td>
                                         <td>{{ substr($donor->phone, 0, -4) }}****</td>
-                                        <td>{{ $donor->institute }}</td>
+                                        <td>{{ $donor->duits_batch }}</td>
                                         {{-- <td>৳ {{ $donor->amount }}</td> --}}
                                         <td>{{ date('F d, Y h:i A', strtotime($donor->created_at)) }}</td>
                                     </tr>

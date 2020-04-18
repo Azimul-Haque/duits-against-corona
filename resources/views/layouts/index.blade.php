@@ -85,7 +85,7 @@
                     <!-- phone -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-phone small-icon black-text"></i>
-                        <h6 class="black-text margin-two no-margin-bottom"><a href="tel:+8801519-201101">+8801519-201101</a></h6>
+                        <h6 class="black-text margin-two no-margin-bottom"><a href="tel:+8801519201101">+8801519-201101</a>, <a href="tel:+8801519201102">+8801519-201102</a></h6>
                     </div>
                     <!-- end phone -->
                     <!-- address -->

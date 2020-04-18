@@ -34,21 +34,21 @@
                     <div class="grid-gallery overflow-hidden" >
                         <div class="tab-content">
                             <ul class="masonry-items grid lightbox-gallery">
-                                <li>
+                                {{-- <li>
                                     <figure>
                                         <div class="gallery-img"><a href="/images/gallery/1.jpg" title=""><img src="/images/gallery/1.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3>Gift for Good</h3>
-                                            <p>Date: March 30, 2020</p>
+                                            <h3>DUIT Against Corona</h3>
+                                            <p>Date: April 19, 2020</p>
                                         </figcaption>
                                     </figure>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <figure>
                                         <div class="gallery-img"><a href="/images/gallery/2.jpg" title=""><img src="/images/gallery/2.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3>Gift for Good</h3>
-                                            <p>Date: March 30, 2020</p>
+                                            <h3>DUIT Against Corona</h3>
+                                            <p>Date: April 19, 2020</p>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -56,8 +56,8 @@
                                     <figure>
                                         <div class="gallery-img"><a href="/images/gallery/3.jpg" title=""><img src="/images/gallery/3.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3>Gift for Good</h3>
-                                            <p>Date: March 30, 2020</p>
+                                            <h3>DUIT Against Corona</h3>
+                                            <p>Date: April 19, 2020</p>
                                         </figcaption>
                                     </figure>
                                 </li>
@@ -65,8 +65,8 @@
                                     <figure>
                                         <div class="gallery-img"><a href="/images/gallery/4.jpg" title=""><img src="/images/gallery/4.jpg" alt=""></a></div>
                                         <figcaption>
-                                            <h3>Gift for Good</h3>
-                                            <p>Date: March 30, 2020</p>
+                                            <h3>DUIT Against Corona</h3>
+                                            <p>Date: April 19, 2020</p>
                                         </figcaption>
                                     </figure>
                                 </li>
