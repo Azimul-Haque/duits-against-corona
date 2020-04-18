@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Fight For Life | Donations')
+@section('title', 'DUITS Against Corona | Donations')
 
 @section('css')
 
@@ -21,7 +21,7 @@
         <thead>
           <tr>
             <th>Donor Name</th>
-            <th>Institution/ Organization</th>
+            <th>DUITS Batch</th>
             <th>Amount, TrxID</th>
             <th>AamarPay Charge</th>
             <th>Payment Method</th>
@@ -34,7 +34,7 @@
               @foreach($donors as $donor)
                   <tr>
                       <td><a href="{{ route('index.donatenext', $donor->donation_id) }}">{{ $donor->name }}</a><br/>{{ $donor->phone }}</td>
-                      <td>{{ $donor->institute }}</td>
+                      <td>{{ $donor->duits_batch }}</td>
                       <td><big><b>৳ {{ $donor->amount }}</b></big><br/>{{ $donor->trxid }}</td>
                       <td><big><b>৳ {{ $donor->aamarpay_charge }}</b></big></td>
                       <td>{{ $donor->card_type }}</td>

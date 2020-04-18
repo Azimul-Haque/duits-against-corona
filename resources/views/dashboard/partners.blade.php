@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Fight For Life | Partners')
+@section('title', 'DUITS Against Corona | Partners')
 
 @section('css')
 

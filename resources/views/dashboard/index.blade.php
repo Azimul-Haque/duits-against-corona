@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Fight For Life')
+@section('title', 'DUITS Against Corona')
 
 @section('content_header')
     <h1>Dashboard</h1>

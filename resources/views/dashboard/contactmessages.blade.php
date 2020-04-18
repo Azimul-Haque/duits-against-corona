@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Contact Form Messages')
+@section('title', 'DUITS Against Corona | Contact Form Messages')
 
 @section('css')
 
