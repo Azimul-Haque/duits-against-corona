@@ -91,14 +91,16 @@
                     <!-- address -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-map-pin small-icon black-text"></i>
-                        <h6 class="black-text margin-two no-margin-bottom">IIT, University of Dhaka</h6>
+                        <h6 class="black-text margin-two no-margin-bottom">
+                            <a href="https://www.google.com/maps/place/Dhaka+University+IT+Society/@23.7313125,90.3926248,15.75z/data=!4m5!3m4!1s0x0:0x7250f88da2943ad4!8m2!3d23.7320628!4d90.3956824?hl=en" title="See on Google Map" target="_blank">Room No-208, TSC 1st Floor, University of Dhaka</a>
+                        </h6>
                     </div>
                     <!-- end address -->
                     <!-- email -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-envelope small-icon black-text"></i>
                         <h6 class="margin-two no-margin-bottom">
-                            <a href="mailto:iitsec@iit.du.ac.bd" class="black-text">iitsec@iit.du.ac.bd</a>
+                            <a href="mailto:duits.official@gmail.com" class="black-text">duits.official@gmail.com</a>
                         </h6>
                     </div>
                     <!-- end email -->
@@ -112,7 +114,7 @@
                     <!-- link -->
                     <ul class="list-inline footer-link text-uppercase">
                         <li>
-                            <a href="http://iit.du.ac.bd/">IIT Website</a>
+                            <a href="https://du.ac.bd/">University of Dhaka</a>
                         </li>
                         <li>
                             <a href="https://iitdualumni.com/">IIT Alumni</a>
