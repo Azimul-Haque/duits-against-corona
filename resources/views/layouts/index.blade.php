@@ -117,19 +117,13 @@
                             <a href="https://du.ac.bd/">University of Dhaka</a>
                         </li>
                         <li>
-                            <a href="https://iitdualumni.com/">IIT Alumni</a>
+                            <a href="https://jobs.du.ac.bd/">Jobs</a>
                         </li>
                         <li>
                             <a href="{{ route('index.donationsummary') }}">Summary</a>
                         </li>
                         <li>
                             <a href="{{ route('index.statement') }}">Statement</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('index.distribution') }}">Partners</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('index.gallery') }}">Gallery</a>
                         </li>
                         <li>
                             <a href="{{ route('index.contact') }}">Contact</a>
@@ -139,7 +133,7 @@
                 </div>
                 <div class="col-md-4 col-sm-12 footer-social text-right sm-text-center">
                     <!-- social media link -->
-                    <a target="_blank" href="https://www.facebook.com/">
+                    <a target="_blank" href="https://www.facebook.com/Dhaka.University.IT.Society.DUITS/">
                         <i class="fa fa-facebook"></i>
                     </a>
                     <a target="_blank" href="https://twitter.com/">
@@ -157,7 +151,8 @@
                 <div class="row margin-three">
                     <!-- copyright -->
                     <div class="col-md-6 col-sm-6 col-xs-12 copyright text-left letter-spacing-1 xs-text-center xs-margin-bottom-one">
-                        &copy; {{ date('Y') }} Institute of Information Technology, University of Dhaka
+                        &copy; {{ date('Y') }} DUITS. All rights reserved.<br/>
+                        Developed by <a href="http://loencebd.com/" style="color: #888888;">Loence Bangladesh</a>
                     </div>
                     <!-- end copyright -->
                     <!-- logo -->
