@@ -167,10 +167,10 @@
         {{-- <div class="opacity-light bg-grey"></div> --}}
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-12 text-center center-col">
+                <div class="col-md-12 col-sm-12 text-center margin-two center-col">
                     {{-- <span class="margin-five no-margin-top display-block letter-spacing-2">EST. 2016</span> --}}
                     <h1 class="white-text">About Us</h1><br/>
-                    <p class="text-med width-90 center-col white-text smargin-five no-margin-bottom">
+                    <p class="text-med width-90 center-col white-text margin-five no-margin-bottom">
                         ঢাকা ইউনিভার্সিটি আইটি সোসাইটি (ডিইউআইটিএস) বিশ্ববিদ্যালয়ের শিক্ষার্থীদের দ্বারা পরিচালিত টিএসসি ভিত্তিক একটি সংগঠন। প্রতিষ্ঠার পর থেকেই সংগঠনটি তথ্যপ্রযুক্তি নির্ভর ক্যাম্পাস গঠনের পাশাপাশি বিভিন্ন সামাজিক কার্যক্রম করে আসছে। এরই ধারাবাহিকতায়, চলমান মহামারী করোনা পরিস্থিতিতে সংগঠনের আর্থিকভাবে অস্বচ্ছল সদস্যদের প্রতি সহযোগিতার হাত বাড়ানোর জন্য একটি 'আর্থিক সহায়তা প্রদান তহবিল' গঠন করা হয়েছে।<br/><br/>
 
                         আমরা দৃঢ়ভাবে বিশ্বাস করি, সকল ব্যক্তি, প্রতিষ্ঠান বা সংগঠনগুলোর এই বিপর্যয়ে বিপদগ্রস্থ মানুষের পাশে দাড়ানো এখন একটি মানবিক, নৈতিক ও সামাজিক দায়িত্ব। তাই আমাদের উদাত্ত আহবান, সামর্থ্য অনুযায়ী আর্থিকভাবে আপনার একটুখানি সহযোগিতা এমতাবস্থায় বিশ্ববিদ্যালয়ের তথা সংগঠনের সদস্যদের স্বাভাবিক জীবনযাপনে সহায়ক হতে পারে। আসুন সম্মিলিতভাবে করোনা প্রতিরোধ করি।<br/><br/>
