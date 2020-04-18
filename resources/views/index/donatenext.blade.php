@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <!-- section title -->
-                <div class="col-md-6 col-sm-6 xs-margin-bottom-four">
+                <div class="col-md-6 col-sm-6">
                     <span class="text-large letter-spacing-2 black-text font-weight-600 text-uppercase agency-title">
                         @if($donation->payment_status == 0)
                             Donate Now
@@ -66,7 +66,7 @@
                             </h2>
                             @mobile
                                 <div style="border: 2px solid #ddd; margin: 25px; padding: 5px;">
-                                    <img src="/images/logo.png" style="height: 70px; padding: 5px;"><br/>
+                                    <img src="/images/logo.png" style="height: 120px; padding: 5px;"><br/>
                                     <small>Initiative by DUITS</small><br/><br/>
                                     <table class="table table-condensed">
                                         <tr>
@@ -89,7 +89,7 @@
                                 </div>
                             @elsemobile
                                 <div style="border: 2px solid #ddd; margin: 25px; padding: 5px;">
-                                    <img src="/images/logo.png" style="height: 70px; padding: 5px;"><br/>
+                                    <img src="/images/logo.png" style="height: 120px; padding: 5px;"><br/>
                                     <small>Initiative by DUITS</small><br/><br/>
                                     <table class="table table-condensed">
                                         <tr>
