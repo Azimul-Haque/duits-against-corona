@@ -118,25 +118,25 @@
         <div class="container">
             <div class="row">
                 <!-- counter -->
-                <div class="col-md-4 col-sm-4 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="600ms">
+                <div class="col-md-6 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="600ms">
                     <i class="icon-happy medium-icon black-text"></i>
                     <span class="timer counter-number black-text" data-to="{{ $totaldonations }}" data-speed="7000"></span>
                     <span class="counter-title black-text">Donors</span>
                 </div>
                 <!-- end counter -->
                 <!-- counter -->
-                <div class="col-md-4 col-sm-4 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="300ms">
+                <div class="col-md-6 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten" data-wow-duration="300ms">
                     <i class="icon-heart medium-icon black-text"></i>
                     <span class="timer counter-number black-text" data-to="{{ $totaldonationamount->total - $totalcharge->total }}" data-speed="5000"></span>
                     <span class="counter-title black-text">Donation (Tk.)</span>
                 </div>
                 <!-- end counter -->
                 <!-- counter -->
-                <div class="col-md-4 col-sm-4 bottom-margin-small text-center counter-section wow fadeInUp xs-margin-bottom-ten" data-wow-duration="900ms">
+                {{-- <div class="col-md-4 col-sm-4 bottom-margin-small text-center counter-section wow fadeInUp xs-margin-bottom-ten" data-wow-duration="900ms">
                     <i class="icon-anchor medium-icon black-text"></i>
                     <span class="timer counter-number black-text" data-to="3" data-speed="7000"></span>
                     <span class="counter-title black-text">Partners</span>
-                </div>
+                </div> --}}
                 <!-- end counter -->
             </div>
         </div>
