@@ -78,7 +78,7 @@
                     {{-- <div id="success" class="no-margin-lr"></div> --}}
                     <input name="name" type="text" value="{{ old('name') }}" placeholder="Your Name (আপনার নাম)" required="" />
                     <input name="amount" id="amount" type="text" value="{{ old('amount') }}" placeholder="Donation Amount (অনুদানের পরিমাণ)" onchange="checkAmount()" required="" />
-                    <input name="institute" type="text" value="{{ old('institute') }}" placeholder="Institution/Organization (প্রতিষ্ঠানের নাম)"  required="" />
+                    <input name="duits_batch" type="text" value="{{ old('duits_batch') }}" placeholder="DUITS Batch (ডিইউআইটিএস ব্যাচ)"  required="" />
                     <input name="phone" type="text" value="{{ old('phone') }}" placeholder="Contact Number (যোগাযোগের নাম্বার)"  required="" />
                     
                     @php
@@ -89,7 +89,7 @@
                     <input type="hidden" name="contact_sum_result_hidden" value="{{ $contact_sum_result_hidden }}">
                     <input type="text" name="contact_sum_result" id="" class="form-control" placeholder="{{ $contact_num1 }} + {{ $contact_num2 }} = ?" required="">
                     
-                    <button id="contact-us-button" type="submit" class="highlight-button-dark btn button xs-margin-bottom-five"><i class="fa fa-paper-plane"></i> Donate Now</button>
+                    <button type="submit" class="highlight-button-dark btn button xs-margin-bottom-five"><i class="fa fa-paper-plane"></i> Donate Now</button>
                 {!! Form::close() !!}
                 <!-- end form -->
             </div>
@@ -101,11 +101,11 @@
                     </li>
                     <li>
                         <span><i class="fa fa-university"></i></span>
-                        অনুদান জমা হবে ঢাকা বিশ্ববিদ্যালয়ের তথ্য প্রযুক্তি ইন্সটিটিউট এর শিক্ষার্থীদের উদ্যোগ "ফাইট ফর লাইফ" প্রজেক্ট এর তহবিল এ। এই অর্থ পৌঁছে যাবে বিদ্যানন্দ  ও গিফট ফর গুডস এ ধরণের স্বেচ্ছাসেবী সংগঠনগুলোর কাছে।
+                        অনুদান জমা হবে ঢাকা ইউনিভার্সিটি আইটি সোসাইটি (ডিইউআইটিএস) এর শিক্ষার্থীদের উদ্যোগ "আর্থিক সহায়তা প্রদান তহবিল"-এ। এই অর্থ পৌঁছে যাবে বিদ্যানন্দ  ও গিফট ফর গুডস এ ধরণের স্বেচ্ছাসেবী সংগঠনগুলোর কাছে।
                     </li> 
                     <li>
                         <span><i class="fa fa-ambulance"></i></span>
-                        এ অনুদান দিয়ে ডাক্তার এবং স্বাস্থ্যকর্মীর জন্য তৈরি হবে পারসোনাল প্রোটেক্টিভ ইকুইপমেন্ট (PPE)। লকডাউনের দিনগুলোয় উপার্জন করতে না পারা অসহায় শ্রমজীবী মানুষগুলোর জন্য কেনা হবে বেঁচে থাকার জন্য প্রয়োজনীয় খাবার আর স্যানিটাইজার।
+                        এ অনুদান সঠিকভাবে পৌঁছে যাবে বিপদগ্রস্থ অসহায় মানুষদেড় পাশে । লকডাউনের দিনগুলোয় তাদের স্বাভাবিক জীবনযাপনে সহায়ক হবে আপনার এ প্রয়াস।
                     </li>
                 </ul>
             </div> 
