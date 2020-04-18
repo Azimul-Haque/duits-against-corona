@@ -2,9 +2,9 @@
 <html class="no-js" lang="en">
 
 <head>
-    <title>Fight For Life | @yield('title')</title>
-    <meta name="description" content="Fight For Life is a charitable initiative of IITDU Alumni Association along with IITSec, University of Dhaka. Developed by A. H. M. Azimul Haque">
-    <meta name="keywords" content="Fight For Life, IITDU Alumni Association, IITDU, IIT, University of Dhaka, IIT Alumni">
+    <title>DUITS Against Corona | @yield('title')</title>
+    <meta name="description" content="DUITS Against Corona is a charitable initiative of Dhaka University IT Society (DUITS). Developed by A. H. M. Azimul Haque">
+    <meta name="keywords" content="DUITS Against Corona, DUITS, University of Dhaka">
     <meta charset="utf-8">
     <meta name="author" content="A. H. M. Azimul Haque">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
@@ -85,7 +85,7 @@
                     <!-- phone -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-phone small-icon black-text"></i>
-                        <h6 class="black-text margin-two no-margin-bottom"><a href="tel:+8801515297658">+88 01755444807</a></h6>
+                        <h6 class="black-text margin-two no-margin-bottom"><a href="tel:+8801519-201101">+8801519-201101</a></h6>
                     </div>
                     <!-- end phone -->
                     <!-- address -->
