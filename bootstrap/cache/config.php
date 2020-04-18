@@ -87,7 +87,7 @@
     'timezone' => 'Asia/Dhaka',
     'locale' => 'en',
     'fallback_locale' => 'en',
-    'key' => 'base64:tzD3ykX2ehPDTpTMgN4lkWMH+B9ICn9t1Zt0y7tUAhA=',
+    'key' => 'base64:dlBkEOmMMuebEjOR4exIxjR2yTF2o8mg27xl+WxoWqs=',
     'cipher' => 'AES-256-CBC',
     'log' => 'single',
     'providers' => 
